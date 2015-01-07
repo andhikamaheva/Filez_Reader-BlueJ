@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=
+comment0.target=FileReader()
+comment1.params=fileName
+comment1.target=void\ showFile(java.lang.String)
+comment1.text=\r\n\ Show\ the\ contents\ of\ the\ file\ 'fileName'\ on\ standard\ out\ (the\ text\ \r\nterminal).\r\n\r\n\ @param\ fileName\ \ The\ name\ of\ the\ file\ to\ show\r\n\ @throws\ \ IOException\ if\ the\ file\ could\ not\ be\ opened\r\n
+comment2.params=fileName
+comment2.target=void\ checkedShowFile(java.lang.String)
+comment2.text=\r\n\ Same\ as\ 'showfile',\ but\ don't\ throw\ exceptions.\ If\ an\ error\ occurs,\r\n\ write\ an\ error\ message\ to\ the\ terminal.\r\n\r\n\ @param\ fileName\ \ The\ name\ of\ the\ file\ to\ show\r\n
+comment3.params=fileName
+comment3.target=java.io.InputStream\ openFile(java.lang.String)
+comment3.text=\r\n\ Open\ a\ text\ file\ and\ return\ a\ stream\ to\ read\ from\ that\ file.\r\n\ The\ file\ can\ reside\ anywhere\ in\ the\ classpath.\r\n\r\n\ @param\ fileName\ \ The\ name\ of\ the\ file\ to\ open\r\n\ @return\ An\ open\ stream\ to\ read\ from\ the\ file\r\n\ @throws\ \ IOException\ if\ the\ file\ could\ not\ be\ opened\r\n
+comment4.params=
+comment4.target=java.lang.String\ getNama()
+numComments=5
